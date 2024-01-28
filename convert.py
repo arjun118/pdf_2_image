@@ -22,7 +22,7 @@ TO-DO
 '''    
 
 with tempfile.TemporaryDirectory() as path:
-    images_from_path=convert_from_path("test.pdf",output_folder=path,poppler_path="path to poppler bin dir after its installation on windows")
+    images_from_path=convert_from_path("intro.pdf",output_folder=path,poppler_path=r'C:\Users\Vishnu\Downloads\Release-23.11.0-0\poppler-23.11.0\Library\bin')
     for i in range(len(images_from_path)):
         fname=os.path.join(absolute_output_path,f'page_{i}.png')
         images_from_path[i].save(fname,'PNG')
