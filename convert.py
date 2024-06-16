@@ -10,7 +10,7 @@ os.mkdir(absolute_output_path)
 '''
 TO-DO
 
--- MAJOR: make it compatible for both windows and linux
+-- MAJOR: make it compatible for both windows and linux, change the hardcoded poppler path and ask the absolute path from the user
 
 1. take input from the user for the output directory name
 2. take the input for the bin dir of poppler
